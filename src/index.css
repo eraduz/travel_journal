@@ -1,0 +1,94 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+.nav-bar {
+  background-color:#F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  gap: 7px;
+  margin-bottom:40px;
+}
+
+.nav-bar h1 {
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: -0.075em;
+color:#fff;
+}
+.travel-card {
+  padding: 0 40px 0 40px;
+}
+
+.travel-card--data {
+  display: flex;
+  gap: 19px;
+  align-items: center;
+}
+
+.travel-card--data  .thumbnail {
+  background: no-repeat center center;
+  width: 250px;
+  height: 336px;
+  border-radius: 5px;  
+}
+
+.travel-card--data .body .header {
+  display: flex;
+  gap:12px;
+}
+
+.travel-card--data .body .country {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+}
+
+.travel-card--data .body .header a {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  color: #918E9B;
+
+}
+
+.travel-card--data .body h1 {
+  font-weight: 700;
+font-size: 25px * 2;
+line-height: 30px * 2;
+color: #2B283A;
+margin: 5px 0;
+}
+
+.travel-card--data .date {
+  font-weight: 700;
+font-size: 10.24px * 2;
+line-height: 12px * 2;
+color:#2B283A;
+margin: 9px 0;
+}
+
+.travel-card--data .description {
+  font-weight: 400;
+  font-size: 10.24px * 2;
+  line-height: 150% * 2;
+  color: #2B283A;
+}
+
+.container hr {
+  border: 1px solid #F5F5F5;
+  margin: 18px 0;
+}
+
